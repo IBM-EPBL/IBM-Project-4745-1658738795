@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+   <html>
+    <head>
+       <title>Real Time Communication</title>
+        <style>
+            body{
+                 background-image: linear-gradient(to bottom right, blue, black);
+                 background-repeat: no-repeat;
+                background-attachment: fixed;
+
+            }
+            h1,h2,a,p{
+                color:white;
+            }
+
+        </style>
+    </head>
+    <body>
+     <div class="title">
+         <h1><center>
+            REAL-TIME COMMUNICATION SYSTEM POWERED BY AI 
+            FOR SPECIALLY ABLED</center>
+         </h1>
+
+     </div>
+      <center><img src="../static/img/img.png" width="300" height="300"></center>
+       <div>
+           <center><h2>Show these Gestures to get the Alphabet</h2></center>
+       </div>
+        <div>
+             <center><a href="{{ url_for('predict') }}">CLICK HERE TO SHOW YOUR GESTURES</a></center>
+        </div>
+    <div>
+      <center>  <p>In our society, we have people with disabilities. The technology is developing day by day but no significant developments are undertaken for the betterment of these people. Communications between deaf-mute and a normal person has always been a challenging task. It is very difficult for mute people to convey their message to normal people. Since normal people are not trained on hand sign language. In emergency times conveying their message is very difficult.<br>
+<br>
+The project aims to develop a system that converts the sign language into a alphabet in the desired language to convey a message to normal people. We are making use of a convolution neural network to create a model that is trained on different hand gestures. An app is built which uses this model. This app enables deaf and dumb people to convey their information using signs which get converted to human-understandable language is given as output.</p>
+   </center>
+    </div>
+        
+        
+
+    </body>
+</html>
